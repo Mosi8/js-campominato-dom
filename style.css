@@ -57,7 +57,7 @@ main {
 }
 
 .block {
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(160, 252, 216);
     height: 50px;
     width: 50px;
     border: solid 1px #000;
@@ -93,11 +93,11 @@ footer {
 }
 
 .active {
-    background-color: rgb(10, 160, 10);
+    background-color: rgb(111, 148 , 230);
     color: #fff;
 }
 
 .bomba {
-    background-color: red;
+    background-color: rgb(202, 49, 65);
     color: #fff;  
 }
