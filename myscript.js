@@ -7,7 +7,7 @@ function cambioColor(cella){
             this.classList.add ("bomba");
         })
        }else{
-        cella[i].addEventListener("click", function(){
+            cella[i].addEventListener("click", function(){
             this.classList.add ("active");
         })
        }
@@ -16,7 +16,7 @@ function cambioColor(cella){
 
 
 function generatoreNum(cella) {
-    let numeroRand = parseInt(Math.floor(Math.random()* cella.length + 1));
+    let numeroRand = parseInt(Math.floor(Math.random()* cella.length));
     return numeroRand;
 }
 
