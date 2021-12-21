@@ -1,0 +1,97 @@
+body {
+height: 100vh;
+width: 100vw;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: #fff;
+}
+
+.ms_h40 {
+    height: 40px;
+}
+
+.ms_w_200px {
+    width: 200px;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.ms_txt_30 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 40px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+#play {
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0px 25px;
+    height: 30px;
+}
+
+img {
+    height: 100%;
+}
+
+main {
+    background-color: rgb(160, 252, 216);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    height: calc(100% - 120px);
+    overflow: auto;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.block {
+    background-color: rgb(255, 191, 0);
+    height: 50px;
+    width: 50px;
+    border: solid 1px #000;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.block_7 {
+    width: 70px;
+    height: 70px;
+}
+
+.block_9 {
+    width: 55px;
+    height: 55px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #fff;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.active {
+    background-color: rgb(10, 160, 10);
+    color: #fff;
+}
+
