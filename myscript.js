@@ -2,9 +2,15 @@
 
 function cambioColor(cella){
     for(i=0; i < cella.length; i++){
+       if (i == 3){
+        cella[i].addEventListener("click", function(){
+            this.classList.add ("bomba");
+        })
+       }else{
         cella[i].addEventListener("click", function(){
             this.classList.add ("active");
         })
+       }
     }
 }
 
@@ -48,7 +54,6 @@ function () {
         }
         console.log(posBombe);
         cambioColor(quadrato);
-        cambioColorBomba(quadrato);
 
     }else if (livelloDiff == 2){
         campo.innerHTML = '';
